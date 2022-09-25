@@ -1,0 +1,9 @@
+.about{
+    background-color: rgb(254, 231, 235);
+    height: 600px;
+    align-items: center;
+}
+
+.description{
+    justify-content: flex-end;
+}
