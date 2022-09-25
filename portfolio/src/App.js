@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
          <Route path='/contact' element={<Contact/>}></Route>
          <Route path='/resume' element={<Resume/>}></Route>
        </Routes>
+       <Footer/>
      </Router>
     </div>
   );
