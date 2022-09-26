@@ -9,8 +9,8 @@ const Portfolio = () => {
       <h1>My Work</h1>
         <ul>
             <li img src={WW} alt="Project1" >Womans World</li>
-          
-            <li img src={TG}>Team Generator</li>
+            Deployed at: 
+             <li img src={TG}>Team Generator</li>
             Deployed at: https://adryq.github.io/Password-Generator/
             <li>Project 3</li>
             <li>Project 4</li>
